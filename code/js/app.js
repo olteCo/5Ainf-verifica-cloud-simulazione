@@ -10,7 +10,7 @@ var app = {
 		dataJson.cardList.forEach(element => {
 			let html= `<div class="col-lg-3 col-md-6 mb-4 net-all">
 			<div class="card h-100">
-			  <img class="card-img-top" src="${element.imgURL}">
+			  <img class="card-img-top" src="${element.imgUrl}">
 			  <div class="card-body">
 				<h4 class="card-title">${element.titolo}</h4>
 				<p class="card-text">${element.desc}</p>
